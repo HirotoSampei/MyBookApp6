@@ -1,4 +1,4 @@
-package jp.te4a.spring.boot.myapp13.controller;
+package jp.te4a.spring.boot.myapp13a.controller;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -11,9 +11,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import jp.te4a.spring.boot.myapp13.bean.BookBean;
-import jp.te4a.spring.boot.myapp13.form.BookForm;
-import jp.te4a.spring.boot.myapp13.service.BookService;
+import jp.te4a.spring.boot.myapp13a.bean.BookBean;
+import jp.te4a.spring.boot.myapp13a.form.BookForm;
+import jp.te4a.spring.boot.myapp13a.service.BookService;
 
 @Controller
 @RequestMapping("books")

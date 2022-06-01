@@ -1,13 +1,13 @@
-package jp.te4a.spring.boot.myapp13.service;
+package jp.te4a.spring.boot.myapp13a.service;
 
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.Pbkdf2PasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import jp.te4a.spring.boot.myapp13.bean.UserBean;
-import jp.te4a.spring.boot.myapp13.form.UserForm;
-import jp.te4a.spring.boot.myapp13.repository.UserRepository;
+import jp.te4a.spring.boot.myapp13a.bean.UserBean;
+import jp.te4a.spring.boot.myapp13a.form.UserForm;
+import jp.te4a.spring.boot.myapp13a.repository.UserRepository;
 @Service
 public class UserService {
     @Autowired

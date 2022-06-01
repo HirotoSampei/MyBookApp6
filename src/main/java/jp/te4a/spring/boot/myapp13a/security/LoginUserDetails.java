@@ -1,8 +1,8 @@
-package jp.te4a.spring.boot.myapp13.security;
+package jp.te4a.spring.boot.myapp13a.security;
 import org.springframework.security.core.authority.AuthorityUtils;
 import org.springframework.security.core.userdetails.User;
 
-import jp.te4a.spring.boot.myapp13.bean.UserBean;
+import jp.te4a.spring.boot.myapp13a.bean.UserBean;
 import lombok.Data;
 @Data
 public class LoginUserDetails extends User {

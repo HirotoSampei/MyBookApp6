@@ -1,4 +1,4 @@
-package jp.te4a.spring.boot.myapp13.bean;
+package jp.te4a.spring.boot.myapp13a.bean;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;

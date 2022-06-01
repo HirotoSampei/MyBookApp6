@@ -1,4 +1,4 @@
-package jp.te4a.spring.boot.myapp13.config;
+package jp.te4a.spring.boot.myapp13a.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;

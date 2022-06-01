@@ -1,4 +1,4 @@
-package jp.te4a.spring.boot.myapp13.repository;
+package jp.te4a.spring.boot.myapp13a.repository;
 
 import java.util.List;
 
@@ -6,7 +6,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
-import jp.te4a.spring.boot.myapp13.bean.BookBean;
+import jp.te4a.spring.boot.myapp13a.bean.BookBean;
 
 @Repository
 public interface BookRepository extends JpaRepository<BookBean, Integer>{
