@@ -11,6 +11,7 @@
 	<groupId>jp.te4a.spring.boot</groupId>
 	<artifactId>MyBootApp13a</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
 	<name>MyBootApp13+</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
@@ -141,6 +142,9 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<executable>true</executable>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
